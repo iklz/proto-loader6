@@ -1,7 +1,7 @@
 {
-  "name": "proto-loader",
-  "version": "0.3.1",
-  "description": "Protocol Buffer loader module for webpack",
+  "name": "proto-loader6",
+  "version": "0.4.0",
+  "description": "Protocol Buffer loader module for webpack. Supports protobufjs v6+",
   "main": "index.js",
   "keywords": [
     "webpack",
@@ -10,7 +10,7 @@
     "protocol",
     "buffer"
   ],
-  "author": "Brian Chirls @bchirls",
+  "author": "Chris Van Vranken @cessationoftime",
   "license": "MIT",
   "licenses": [
     {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianchirls/proto-loader.git"
+    "url": "https://github.com/cessationoftime/proto-loader6.git"
   },
   "devDependencies": {
     "json-loader": "^0.5.4",

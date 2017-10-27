@@ -12,7 +12,7 @@ npm install proto-loader
 ``` javascript
 var protobuf = require('protobufjs');
 
-var protoDefinition = require('json!proto!./message.proto');
+var protoDefinition = require('json!proto-loader6!./message.proto');
 // => returns json object converted from message.proto, resolves imports
 
 var root = protobuf.Root.fromJSON(protoDefinition);
@@ -27,7 +27,7 @@ module.exports = {
     loaders: [
       {
         test: /\.proto$/,
-        loaders: ['json-loader', "proto-loader"]
+        loaders: ['json-loader', "proto-loader6"]
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
-  "name": "proto-loader6",
-  "version": "0.4.0",
+  "name": "@iki/proto-loader6",
+  "version": "1.0.0",
   "description": "Protocol Buffer loader module for webpack. Supports protobufjs v6+",
   "main": "index.js",
   "keywords": [
@@ -10,7 +10,11 @@
     "protocol",
     "buffer"
   ],
-  "author": "Chris Van Vranken @cessationoftime",
+  "author": "Brian Chirls @bchirls",
+  "contributors": [
+    "Anton Tarusov @iklz",
+    "Chris Van Vranken @cessationoftime"
+  ],
   "license": "MIT",
   "licenses": [
     {
@@ -20,14 +24,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cessationoftime/proto-loader6.git"
+    "url": "https://github.com/iklz/proto-loader6.git"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "json-loader": "^0.5.4",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "protobufjs": "^6.3.1"
   },
   "dependencies": {
-    "loader-utils": "^0.2.16",
-    "protobufjs": "^6.3.1"
+    "loader-utils": "^1.1.0"
   }
 }
